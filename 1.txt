@@ -1,0 +1,66 @@
+Nagashree:house_with_garden:  10:15 AM
+Here are the instructions for testing SUBNET implementation: 
+Getting started and signing up:
+To start testing SUBNET subscription flow,  use the url: subnet.min.io/subscribe. 
+Please choose either Standard or Premium Plan to test all the subscription flows. Also test Enterprise Plan which will redirect you to contact sales. The details about the Subscription plans are provided in the image attached below. 
+Account creation:
+For the Team Name, please use the format miniotest-yourname, e.g: miniotest-nagashree- so that we can easily identify this as a test account from the Engineer's view
+For the email address, please use your min.io email id with a string +m1n10 in it e.g: nagashree+m1n10@min.io so that you can receive a notification to verify the email on your min.io email id.
+Payment:
+You don't have to swipe your credit card (save it for the TP :wink:). You can use the test credit cards provided by stripe:  https://gist.github.com/rymawby/9b904feec040b25a8034
+Things to test:
+Sign up flow - please report any functionality or usability issues you come across while signing up
+Once you complete sign up, you will land inside your newly created SUBNET account.
+From inside your SUBNET account (subnet.min.io/billing), please test:
+The Billing page info details, invoice section, Edit or Add Payment method
+Update the Self Report Capacity and verify it is reflected properly in your estimated cost
+Upgrade your subscription Plan
+Cancel your subscription Plan  
+Please ping me when you are ready to test the Re subscription flow after you cancel your subscription.
+Apart from these, also verify the emails you receive for Verifying email, successful account creation, Upgrading your plan, cancellation of your plan.
+Look for any error/success message that is not clear enough and report it.
+Also, please click on your Profile pic on the right top corner and verify some actions on the Profile Page (Note: There is an open issue for updating the Profile Page layout)  
+Please ping me if you run into any issues. Happy testing :slightly_smiling_face:.
+Please note that you wont be receiving emails for successful payment processing from stripe as these are test credit cards.
+@Launy - I will try and get you a preview of the email in a day or two to verify the content and also try out the email link to finance@min.io (edited) 
+
+=================
+
+Pinned by Nagashree
+
+Nagashree:house_with_garden:  10:15 AM
+@channel Here are the instructions for testing SUBNET: 
+Getting started and signing up:
+To start testing SUBNET subscription flow,  use the url: subnet.min.io/subscribe. 
+Please choose either Standard or Premium Plan to test all the subscription flows. Also test Enterprise Plan which will redirect you to contact sales. The details about the Subscription plans are provided in the image attached below. 
+Account creation:
+For the Team Name, please use the format miniotest-yourname, e.g: miniotest-nagashree- so that we can easily identify this as a test account from the Engineer's view
+For the email address, please use your min.io email id with a string +m1n10 in it e.g: nagashree+m1n10@min.io so that you can receive a notification to verify the email on your min.io email id.
+Payment:
+You don't have to swipe your credit card (save it for the TP :wink:). You can use the test credit cards provided by stripe:  https://gist.github.com/rymawby/9b904feec040b25a8034
+Things to test:
+Sign up flow - please report any functionality or usability issues you come across while signing up
+Once you complete sign up, you will land inside your newly created SUBNET account.
+From inside your SUBNET account (subnet.min.io/billing), please test:
+The Billing page info details, invoice section, Edit or Add Payment method
+Update the Self Report Capacity and verify it is reflected properly in your estimated cost
+Upgrade your subscription Plan
+Cancel your subscription Plan  
+Please ping me when you are ready to test the Re subscription flow after you cancel your subscription.
+Apart from these, also verify the emails you receive for Verifying email, successful account creation, Upgrading your plan, cancellation of your plan.
+Look for any error/success message that is not clear enough and report it.
+Also, please click on your Profile pic on the right top corner and verify some actions on the Profile Page (Note: There is an open issue for updating the Profile Page layout)  
+Please ping me if you run into any issues. Happy testing :slightly_smiling_face:. (edited) 
+=========
+
+Found issues (not sure which ones are already known):
+priyank-+m1n10
+Password: Select * from users;0
+00000 zipcode - should be fine.
+Your card's expiration year is in the past. - tested
+Upgrade works and receives an email.
+Cancel subscription.
+What is the length of name allowed? I tried a 258 character name, it worked fine..
+Screen Shot 2020-03-20 at 1.08.57 PM
+Notifications blocked in Incognito mode. - tested.
+Updated for password: P@ssw0rd. Received email -tested.
