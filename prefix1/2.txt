@@ -1,0 +1,18 @@
+Zamins-MacBook-Pro:~ priyankraj$ diskutil list
+/dev/disk0 (internal):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                         251.0 GB   disk0
+   1:                        EFI EFI                     314.6 MB   disk0s1
+   2:                 Apple_APFS Container disk1         206.4 GB   disk0s2
+   3:                 Linux Swap                         9.0 GB     disk0s3
+   4:                 Apple_Boot Boot OS X               134.2 MB   disk0s4
+   5:           Linux Filesystem                         35.2 GB    disk0s5
+
+/dev/disk1 (synthesized):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      APFS Container Scheme -                      +206.4 GB   disk1
+                                 Physical Store disk0s2
+   1:                APFS Volume Macintosh HD            40.0 GB    disk1s1
+   2:                APFS Volume Preboot                 48.2 MB    disk1s2
+   3:                APFS Volume Recovery                510.4 MB   disk1s3
+   4:                APFS Volume VM                      1.1 GB     disk1s4
